@@ -7,14 +7,14 @@
 
 ## 📑 Table of Contents
 
-- [📌 Background & Overview](#background--overview)
-- [📂 Dataset Description & Data Structure](#dataset-description--data-structure)
-- [🧹 Data Cleaning & Preprocessing](#data-cleaning--preprocessing)
-- [🔍 Customer Churn Behavior Analysis (EDA)](#customer-churn-behavior-analysis-eda)
-- [🤖 Customer Churn Prediction](#customer-churn-prediction)
-- [📊 Churned Customer Segmentation Using Clustering](#churned-customer-segmentation-using-clustering)
-- [📈 Visualization & Behavioral Analysis](#visualization--behavioral-analysis)
-- [💡 Insights & Business Recommendations](#insights--business-recommendations)
+- [📌 Background & Overview](#-background--overview)
+- [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
+- [🧹 Data Cleaning & Preprocessing](#-data-cleaning--preprocessing)
+- [🔍 Customer Churn Behavior Analysis (EDA)](#-customer-churn-behavior-analysis-eda)
+- [🤖 Customer Churn Prediction](#-customer-churn-prediction)
+- [📊 Churned Customer Segmentation Using Clustering](#-churned-customer-segmentation-using-clustering)
+- [📈 Visualization & Behavioral Analysis](#-visualization--behavioral-analysis)
+- [💡 Insights & Business Recommendations](#-insights--business-recommendations)
 
 ---
 
@@ -22,14 +22,7 @@
 
 ### 🏢 Business Context
 
-This project is based on a **company operating in the e-commerce industry**, where customers purchase products through an online platform. The company offers a variety of product categories including:
-
-- Fashion  
-- Laptop & Accessories  
-- Mobile Phones  
-- Mobile Devices  
-- Grocery  
-- Other consumer products  
+This project is based on a **company operating in the e-commerce industry**, where customers purchase products through an online platform. The company offers a variety of product categories including: Fashion, Laptop & Accessories, Mobile Phones, Mobile Devices, Grocery, Other consumer products.
 
 As the company grows, **customer retention becomes increasingly important**. Losing customers (customer churn) not only reduces revenue but also increases marketing costs, since **acquiring a new customer is typically much more expensive than retaining an existing one**.
 
