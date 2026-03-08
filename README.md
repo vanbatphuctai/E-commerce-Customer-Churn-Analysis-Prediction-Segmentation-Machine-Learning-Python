@@ -64,15 +64,16 @@ Develop a **supervised machine learning model** to estimate the **probability th
 #### 3️⃣ Churned Customer Segmentation Using Clustering
 
 Use **KMeans clustering** to group churned users based on behavioral characteristics, enabling more **targeted win-back promotions**.
+
 ---
 
 ### ❓ Key Business Questions
 
 This analysis aims to answer several important business questions:
 
-- What behavioral and service-related factors contribute to customer churn?
-- How can machine learning help predict customers who are likely to churn?
-- Which features have the strongest impact on churn behavior?
+- What behavioral and service-related factors contribute to customer churn?  
+- How can machine learning help predict customers who are likely to churn?  
+- Which features have the strongest impact on churn behavior?  
 - How can churned customers be segmented into meaningful groups for targeted marketing strategies?
 
 ---
@@ -103,8 +104,8 @@ This dataset contains customer behavior and transaction information collected fr
 ### 📌 Data Source
 
 - **Source:** Internal e-commerce company database  
-- **Dataset File:** `churn_prediction.xlsx`
-- **Size**: The dataset contains 5,630 rows and 20 columns.
+- **Dataset File:** `churn_prediction.xlsx`  
+- **Size:** 5,630 rows × 20 columns  
 
 The dataset records **customer activity, demographic information, purchasing behavior, and engagement metrics** to analyze factors influencing customer churn.
 
@@ -112,10 +113,9 @@ The dataset records **customer activity, demographic information, purchasing beh
 
 ### 📊 Data Structure
 
-### Tables Used
-The dataset contains **only one table** with customer and transaction-related data.
+#### Tables Used
 
----
+The dataset contains **only one table** with customer and transaction-related data.
 
 <details>
 <summary><strong>📋 Click to expand table schema</strong></summary>
@@ -160,6 +160,3 @@ The dataset contains **only one table** with customer and transaction-related da
 ---
 
 ## 🧹 Data Cleaning & Preprocessing
-
-
-
