@@ -224,7 +224,7 @@ df.head(5)
 
 [Out 3]:
 
-<img width="920" alt="image" src="https://github.com/user-attachments/assets/e22bd399-dd2d-4e75-934a-19f05cdd9f98" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/e22bd399-dd2d-4e75-934a-19f05cdd9f98" />
 
 
 [In 4]:
@@ -236,7 +236,7 @@ df.describe()
 
 [Out 4]:
 
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/eb5bd0c9-53e2-4a75-9047-ca9978229a4a" />
+<img width="1400" alt="image" src="https://github.com/user-attachments/assets/eb5bd0c9-53e2-4a75-9047-ca9978229a4a" />
 
 [In 5]:
 
@@ -247,7 +247,7 @@ df.info()
 
 [Out 5]:
 
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/8e6fcbfd-01eb-4121-8fae-0426842ce564" />
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/8e6fcbfd-01eb-4121-8fae-0426842ce564" />
 
 
 #### 💡 Data Understanding
@@ -271,7 +271,7 @@ df.isnull().sum()
 
 [Out 6]:
 
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/0068a65a-7ace-4f43-98df-28e3add0dd3d" />
+<img width="620" alt="image" src="https://github.com/user-attachments/assets/0068a65a-7ace-4f43-98df-28e3add0dd3d" />
 
 Missing values were detected in multiple columns. The columns with missing values are:
 
@@ -294,7 +294,7 @@ df.duplicated().sum()
 
 [Out 7]:
 
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/8d96ced3-631a-4c4a-85f4-21f779583775" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/8d96ced3-631a-4c4a-85f4-21f779583775" />
 
 Aftering checkeing for duplicate rows in the dataset and found that there were no duplicate entries.
 
@@ -312,7 +312,7 @@ for col in df.select_dtypes(include='object'):
 
 [Out 8]:
 
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/5d82dfee-e12e-46eb-9e28-af340e46a835" />
+<img width="850" alt="image" src="https://github.com/user-attachments/assets/5d82dfee-e12e-46eb-9e28-af340e46a835" />
 
 #### 💡 Summary: Handling Data Issues
 
@@ -379,7 +379,7 @@ imb_df
 
 [Out 11]:
 
-<img width="245" alt="image" src="https://github.com/user-attachments/assets/c0239a9c-15af-4f51-8893-b02613fd8cf4" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/c0239a9c-15af-4f51-8893-b02613fd8cf4" />
 
 #### 💡 Insight
 
@@ -424,7 +424,7 @@ plt.show()
 
 [Out 12]:
 
-<img width="1220" alt="image" src="https://github.com/user-attachments/assets/f5d3217a-56ca-4f1b-a07a-76b09ee4bc2c" />
+<img width="1520" alt="image" src="https://github.com/user-attachments/assets/f5d3217a-56ca-4f1b-a07a-76b09ee4bc2c" />
 
 Analyze the distribution of numerical variables using boxplots to identify spread, skewness, and potential outliers.
 
@@ -443,8 +443,7 @@ num_cols = [
     'CashbackAmount',
     'SatisfactionScore',
     'NumberOfDeviceRegistered',
-    'NumberOfAddress'
-]
+    'NumberOfAddress']
 
 # Create subplots (2 rows x 6 columns)
 fig, axes = plt.subplots(2, 6, figsize=(22,8))
@@ -465,7 +464,7 @@ plt.show()
 
 [Out 13]:
 
-<img width="1580" alt="image" src="https://github.com/user-attachments/assets/1131eca8-8663-4192-adf0-f24266e16e59" />
+<img width="1690" alt="image" src="https://github.com/user-attachments/assets/1131eca8-8663-4192-adf0-f24266e16e59" />
 
 
 ### Final Data Inspection
@@ -480,7 +479,7 @@ print(df.info())
 
 [Out 14]:
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/b23ec996-f281-4a6d-bb1e-5474b5363410" />
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/b23ec996-f281-4a6d-bb1e-5474b5363410" />
 
 
 #### 💡 Insight: Exploratory Data Analysis (EDA)
@@ -555,7 +554,7 @@ df_encoded
 
 [Out 15]:
 
-<img width="1520" alt="image" src="https://github.com/user-attachments/assets/24fb51b8-04a2-44e2-bf15-fe9df4150de4" />
+<img width="1700" alt="image" src="https://github.com/user-attachments/assets/24fb51b8-04a2-44e2-bf15-fe9df4150de4" />
 
 #### 📊 **Feature and Target Separation**
 
@@ -631,7 +630,7 @@ print(f'Test Balanced Accuracy: {test_balanced_acc:.4f}')
 
 [Out 18]:
 
-<img width="300" alt="image" src="https://github.com/user-attachments/assets/81df9717-8b03-4da3-a429-3dfbcf115c53" />
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/81df9717-8b03-4da3-a429-3dfbcf115c53" />
 
 #### 💡 Model Insight
 
@@ -717,7 +716,7 @@ plt.show()
 
 [Out 20]:
 
-<img width="1220" alt="image" src="https://github.com/user-attachments/assets/fa20b341-b5c8-4ea1-b9dd-bc5557617c77" />
+<img width="1550" alt="image" src="https://github.com/user-attachments/assets/fa20b341-b5c8-4ea1-b9dd-bc5557617c77" />
 
 #### Complaint vs Churn
 
@@ -755,6 +754,8 @@ plt.show()
 | **WarehouseToHome (Delivery Distance)** | Wider spread with more customers at higher distance values | Mostly concentrated at shorter distances | Longer delivery distance may lead to poorer service experience and higher churn risk | Improve logistics efficiency, reduce delivery time, and optimize warehouse distribution |
 | **Complain (Customer Complaints)** | Customers who complain show a higher proportion of churn | Majority of retained customers do not complain | Negative service experience strongly correlates with churn | Strengthen customer support, faster complaint resolution, and proactive service recovery |
 | **DaySinceLastOrder (Customer Activity)** | Many churned customers show long inactivity periods | Active customers place orders more frequently | Low engagement and long inactivity are strong churn signals | Implement re-engagement campaigns, personalized offers, and reminder notifications |
+
+---
 
 ## 🤖 Customer Churn Prediction
 
@@ -830,8 +831,7 @@ for name, model in models.items():
 # Convert results to dataframe
     model_comparison = pd.DataFrame(
     recall_scores.items(),
-    columns=["Model", "Recall Score"]
-)
+    columns=["Model", "Recall Score"])
 
 # Sort by recall
 model_comparison = model_comparison.sort_values(by="Recall Score", ascending=False)
@@ -840,7 +840,7 @@ model_comparison
 
 [Out 23]:
 
-<img width="280" alt="image" src="https://github.com/user-attachments/assets/e3ba4e64-1461-45cf-a378-fca52fa2da4e" />
+<img width="330" alt="image" src="https://github.com/user-attachments/assets/e3ba4e64-1461-45cf-a378-fca52fa2da4e" />
 
 After testing 4 models, Random Forest achieved the highest Recall score.
 
@@ -900,12 +900,14 @@ print("Best recall score:", rf_finetune.best_score_)
 
 [Out 25]:
 
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/ae08ffa0-f11a-47c4-acae-ef9ef012144e" />
+<img width="1380" alt="image" src="https://github.com/user-attachments/assets/ae08ffa0-f11a-47c4-acae-ef9ef012144e" />
 
 #### 💡 Insight
 
 The optimized **XGBoost** model achieved a Recall of 0.74, successfully identifying about **74% of churned customers**.  
 → **Decision:** The optimized **XGBoost model** will be selected as the final model for churn prediction.
+
+---
 
 ## 📊 Churned Customer Segmentation Using Clustering
 
@@ -925,7 +927,7 @@ churned_data.head()
 
 [Out 26]:
 
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/b0016c83-b261-49a5-b7d0-eabdb00146ba" />
+<img width="580" alt="image" src="https://github.com/user-attachments/assets/b0016c83-b261-49a5-b7d0-eabdb00146ba" />
 
 ### ⚙️ Scale Data
 
@@ -975,7 +977,7 @@ pca.explained_variance_ratio_
 ```
 [Out 29]:
 
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/cb5f74a7-5a82-440d-80b1-1cd33386d010" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/cb5f74a7-5a82-440d-80b1-1cd33386d010" />
 
 #### 💡 Insight
 
@@ -1097,6 +1099,7 @@ plt.show()
 - **Cluster 2 (blue)** appears in the lower-left area, indicating a **segment with similar but slightly different patterns from the central group**.
 - **Cluster 3 (pink)** forms a group in the upper region, suggesting **another unique customer segment with different behavior patterns**.
 
+
 ### 📊 Cluster Size Distribution
 
 [In 34]:
@@ -1112,7 +1115,6 @@ pca_df['cluster'].value_counts()
 #### 💡 Insight:
 Clusters 2 and 3 contain the largest number of customers, indicating that most customers fall into these behavioral segments, while Cluster 0 represents a smaller and more distinct group.
 
----
 
 ### 📈 Customer Cluster Profiling
 
@@ -1156,7 +1158,6 @@ Based on the average feature values of each cluster, we can interpret the custom
 - Relatively high complaint rate
 → These customers live farther from the warehouse, which may influence delivery experience and satisfaction.
 
----
 
 ### 🎯 Cluster Centroids Visualization
 
@@ -1188,8 +1189,8 @@ plt.show()
 ```
 
 [Out 36]:
-<img width="770" alt="image" src="https://github.com/user-attachments/assets/b4463fa0-65e4-480b-a65b-4aa94b6837e6" />
 
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/cd7d1430-4a67-460a-b75e-70d4673e87ef" />
 
 #### 💡 Key Insight
 
@@ -1199,6 +1200,8 @@ plt.show()
 - **Cluster 3** is located higher on the PCA space, representing **another unique customer group**.
 
 The **clear separation between centroids** suggests that the K-Means algorithm successfully identified **distinct customer segments**, with each centroid representing the **typical profile of a cluster**.
+
+---
 
 ## 📈 Churned Customer Segmentation Visualization
 
@@ -1222,6 +1225,7 @@ plt.show()
 ```
 
 [Out 37]:
+
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/f4ba5cbc-35af-4989-bdd6-425f1735d7f0" />
 
 #### 💡 Insight
@@ -1254,8 +1258,7 @@ for i, col in enumerate(features):
         x='cluster',
         y=col,
         data=churned_data,
-        ax=axes[i]
-    )
+        ax=axes[i])
 
     # Add title for each subplot
     axes[i].set_title(f'{col} Distribution by Cluster')
@@ -1271,6 +1274,7 @@ plt.show()
 ```
 
 [Out 38]:
+
 <img width="943" alt="image" src="https://github.com/user-attachments/assets/5d22c906-db9d-4feb-846a-09e9b9066e8f" />
 
 #### 💡 Insight
@@ -1323,6 +1327,7 @@ plt.show()
 ```
 
 [Out 39]:
+
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/69342107-e9d6-4415-89de-985d47130a0d" />
 
 #### **Insight**
