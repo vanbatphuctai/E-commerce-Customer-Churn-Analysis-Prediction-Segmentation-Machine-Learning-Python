@@ -247,7 +247,7 @@ df.info()
 
 [Out 5]:
 
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/8e6fcbfd-01eb-4121-8fae-0426842ce564" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/8e6fcbfd-01eb-4121-8fae-0426842ce564" />
 
 
 #### 💡 Data Understanding
@@ -271,7 +271,7 @@ df.isnull().sum()
 
 [Out 6]:
 
-<img width="620" alt="image" src="https://github.com/user-attachments/assets/0068a65a-7ace-4f43-98df-28e3add0dd3d" />
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/0068a65a-7ace-4f43-98df-28e3add0dd3d" />
 
 Missing values were detected in multiple columns. The columns with missing values are:
 
@@ -1372,7 +1372,7 @@ Customer segmentation identified **four distinct churned customer groups**, each
 
 → Delivery distance may negatively impact customer experience, suggesting **logistics or delivery improvements** could help retention.
 
-## 💡 Key Insights & Business Recommendations
+## 💡 Insights & Business Recommendations
 
 | Insight | Evidence from Analysis | Business Recommendation |
 |--------|-----------------------|-------------------------|
